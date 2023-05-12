@@ -33,3 +33,63 @@ to add branhch git push origin branchname
 to add new repo
 git remote add gh-page https://github.com/w3schools-test/w3schools-test.github.io.git
 git push gh-page master --->make sure you are on the master/main page
+
+git clone https://github.com/w3schools-test/w3schools-test.github.io.git get this at the green code button
+
+rename the origin
+git remote rename origin upstream
+git remote add origin https://github.com/kaijim/w3schools-test.github.io.git
+git remote -v
+origin  https:/
+origin  https:
+upstream        https://github.com/w3schools-test/w3schools-test.github.io.git (fetch)
+upstream        https://github.com/w3schools-test/w3schools-test.github.io.git (push)
+
+
+When sharing your code with others, there are often files or parts of your project, you do not want to share.
+
+Examples
+
+log files
+temporary files
+hidden files
+personal files
+etc.
+Git can specify which files or parts of your project should be ignored by Git using a .gitignore file.
+
+Git will not track files and folders specified in .gitignore. However, the .gitignore file itself IS tracked by Git.
+
+Create .gitignore
+To create a .gitignore file, go to the root of your local Git, and create it:
+
+Example
+touch .gitignore
+
+Now open the file using a text editor.
+
+We are just going to add two simple rules:
+
+Ignore any files with the .log extension
+Ignore everything in any directory named temp
+Note: In this case, we use a single .gitignore which applies to the entire repository.
+
+It is also possible to have additional .gitignore files in subdirectories. These only apply to files or folders within that directory.
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
