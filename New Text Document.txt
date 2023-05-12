@@ -29,3 +29,7 @@ git push origin
 git branch -a for all the subbranch -r for remote branch
 
 to add branhch git push origin branchname
+
+to add new repo
+git remote add gh-page https://github.com/w3schools-test/w3schools-test.github.io.git
+git push gh-page master --->make sure you are on the master/main page
