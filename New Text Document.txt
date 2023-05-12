@@ -1,8 +1,31 @@
-body {
-background-color: lightblue;
-}
+update the origin 
+git remote set-url new URL from GitHub account
 
-h1 {
-color: navy;
-margin-left: 20px;
-}
+create new directory mkdir ---> cd
+add by git add name_of_file or git add --all
+
+create new branch git branch name 
+enter into that branch git checkout branch name
+git log
+git commit -m "message"
+
+git help --all or git command help
+
+merge branch 
+git merge branch name( while you are in main)
+
+git  branch -d branch name (deletes it)
+
+git fetch origin
+
+git log origin/master-->check log of main
+
+git diff origin/master_____>check difference
+git merge origin/master------>merge origin and master
+
+git pull origin
+git push origin
+
+git branch -a for all the subbranch -r for remote branch
+
+to add branhch git push origin branchname
